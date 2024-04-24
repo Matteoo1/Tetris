@@ -1,0 +1,30 @@
+# Ignorera byggmappar
+bin/
+obj/
+
+# Ignorera Visual Studio-specifika filer
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorera ReSharper-katalogen om du använder ReSharper
+_ReSharper*/
+
+# Ignorera allmänna temporära filer
+*.[Oo]bj
+*.[Bb]ak
+*~.nib
+*.[Cc]ache
+*.log
+*.DS_Store
+*.svn
+
+# Ignorera NuGet-paket
+packages/*
+
+# Dock inte NuGet-specifika filer
+!packages/repositories.config
+
+# Ignorera Visual Studio-kodmappar
+.vs
